@@ -1,36 +1,36 @@
 
 * After you clone this project, do the following:
 
-modify .env for your dev
+* modify .env for your dev
 
-cp .env.example .env
-
-
-install composer dependencies
-
-composer install
+    cp .env.example .env
 
 
-install npm dependencies
+* install composer dependencies
 
-npm install
-
-
-generate a key for your application
-
-php artisan key:generate
+    composer install
 
 
-run the migration files to generate the schema
+* install npm dependencies
 
-php artisan migrate
-
-
-run the seeder to fill users table
-
-php artisan db:seed
+    npm install
 
 
-run webpack and watch for changes
-php artisan serve
-npm run serve
+* generate a key for your application
+
+    php artisan key:generate
+
+
+* run the migration files to generate the schema
+
+    php artisan migrate
+
+
+* run the seeder to fill users table
+
+    php artisan db:seed
+
+
+* run webpack and watch for changes
+    php artisan serve
+    npm run serve
