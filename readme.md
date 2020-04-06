@@ -32,5 +32,6 @@
 
 
 * run webpack and watch for changes
+
     php artisan serve
     npm run serve
