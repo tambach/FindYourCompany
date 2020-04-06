@@ -1,5 +1,5 @@
 
-After you clone this project, do the following:
+* After you clone this project, do the following:
 
 modify .env for your dev
 
